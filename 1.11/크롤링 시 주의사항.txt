@@ -1,0 +1,25 @@
+대괄호는 생략가능
+
+URL  ?
+	웹 사이트의 주소 -> HTTP URL
+			---- 웹틔 통신 규약( 프로토콜)
+
+  프로토콜명 :// 서버주소[:포트번호]/[패스/파일]
+  프로토콜명://  서버주소[:포트번호]/[패스/파일]?이름=값&이름=값....
+
+
+  http://www.naver.com
+
+  iso-8859-1  --> 영문(ascii라고도 함) - 1바이트
+  ksc5601      --> 한국어 - 2바이트  ---(외국에서는) euc-kr, cp949
+
+---------------------------------------------------------> 표준화
+
+  utf-8         --> 전 세계의 문자들의 코드값을 표준화 - 1바이트~4바이트
+
+
+https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=ABCabc123
+
+https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=ABCabc123+%EA%B0%80%EB%82%98%EB%8B%A4&oquery=ABCabc123&tqi=hO0lZlprvN8ssnXl5TossssssfZ-477048
+( 물음표 뒤가 쿼리 문자열)    (ABCabc123 가나다 아래에서는 공백 및 한글은 퍼센트, 고유기호)
+
